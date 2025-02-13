@@ -7,7 +7,19 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Profesyonel Beyaz Eşya Servisi | 7/24 Hizmet',
   description: 'Uzman teknisyenlerimizle tüm beyaz eşya markalarında profesyonel, hızlı ve garantili tamir hizmeti sunuyoruz. Aynı gün servis imkanı!',
-  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+  viewport: 'width=device-width, initial-scale=1, minimum-scale=1',
+  formatDetection: {
+    telephone: 'yes'
+  },
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'Beyaz Eşya Servisi'
+  },
+  other: {
+    'apple-mobile-web-app-capable': 'yes',
+    'mobile-web-app-capable': 'yes'
+  }
 };
 
 export default function RootLayout({
