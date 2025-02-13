@@ -123,9 +123,14 @@ export default function Home() {
                   <span className="group-hover:underline">{phoneNumber}</span>
                 </Button>
               </a>
-              <Button size="lg" variant="outline" className="bg-white/10 hover:bg-white/20 w-full sm:w-auto">
-                Servis Talebi Oluştur
-              </Button>
+              <a 
+                href={`tel:${phoneNumberClean}`}
+                className="inline-block w-full sm:w-auto"
+              >
+                <Button size="lg" variant="outline" className="bg-white/10 hover:bg-white/20 w-full">
+                  Servis Talebi Oluştur
+                </Button>
+              </a>
             </div>
           </div>
         </div>
