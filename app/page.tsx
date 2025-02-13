@@ -98,7 +98,7 @@ export default function Home() {
       {/* Hero Section */}
       <section id="home" className="relative min-h-screen flex items-center justify-center text-white pt-16">
         <Image
-          src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1600&q=80"
+          src="https://img.freepik.com/free-photo/smiling-woman-headset-presentation-something_329181-11710.jpg?t=st=1739442681~exp=1739446281~hmac=816a813ff8c9fcd09acf63955cfbeef9b9a86360a347ad143365f08d3730f201&w=740"
           alt="Profesyonel Çağrı Merkezi Temsilcisi"
           fill
           className="object-cover brightness-50"
